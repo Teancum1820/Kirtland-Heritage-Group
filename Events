@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirtland Heritage Group Events</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        .event-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <h1 class="text-3xl font-bold text-gray-900">Kirtland Heritage Group</h1>
+            <p class="text-lg text-gray-600">Community Events & Reunions</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Upcoming Events Section -->
+        <div>
+            <h2 class="text-4xl font-bold mb-8 text-center text-green-900">Upcoming Events</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Annual Fall Cleanup -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                    <img src="https://www.marthastewart.com/thmb/Nv0_fKEos9FERAY8rfBZ6oOjgNE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fall-yard-cleanup-important-for-lawn-garden-getty-0923-a52f9e8c61134458b40f5ffef72d3e2b.jpg" alt="Volunteers cleaning up leaves in the fall" class="w-full h-56 object-cover">
+                    <div class="p-6 flex flex-col h-full">
+                        <div class="flex items-center mb-4">
+                            <div class="text-center bg-green-700 text-white rounded-lg p-3 mr-4">
+                                <p class="text-sm font-bold leading-tight">NOV</p>
+                                <p class="text-2xl font-extrabold">8</p>
+                                <p class="text-sm font-bold leading-tight">2025</p>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Annual Fall Cleanup</h3>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            Join the Kirtland Interfaith & Leaders Network to serve senior residents in our beautiful “City of Faith and Beauty.” Volunteers will help neighbors who are unable to prepare their yards for winter.
+                        </p>
+                        <div class="mb-4">
+                            <p class="font-bold text-gray-800">Meet at: Kirtland City Hall</p>
+                            <p class="text-sm text-gray-600">9301 Chillicothe Rd, Kirtland, OH 44094</p>
+                            <p class="font-semibold text-gray-700">Time: 8:00 a.m.</p>
+                        </div>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Please bring rakes, leaf blowers, and any other tools you can share.
+                        </p>
+                        <div class="mt-auto pt-4">
+                            <div class="bg-green-50 text-green-800 text-sm font-medium p-3 rounded-lg text-center">
+                                A wonderful way to serve the community!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interfaith Event Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                    <img src="https://nrb.org/wp-content/uploads/2021/05/TheChosen16x9-scaled-1.jpg" alt="The Chosen Interfaith Event" class="w-full h-56 object-cover md:object-top">
+                    <div class="p-6 flex flex-col h-full">
+                        <div class="flex items-center mb-4">
+                            <div class="text-center bg-green-700 text-white rounded-lg p-3 mr-4">
+                                <p class="text-sm font-bold leading-tight">NOV</p>
+                                <p class="text-2xl font-extrabold">15-16</p>
+                                <p class="text-sm font-bold leading-tight">2025</p>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Chosen Interfaith Event</h3>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                           Join cast members from the hit series 'The Chosen' for an unforgettable evening of inspiration and unity, celebrating a message of love and peace found in Christ.
+                        </p>
+                        
+                        <div class="mb-4 text-sm">
+                            <p class="font-bold text-gray-700">Special Guests:</p>
+                            <ul class="list-disc list-inside text-gray-600 ml-4">
+                                <li>Shaan Sharma ('Shmuel')</li>
+                                <li>George Harrison ('John')</li>
+                                <li>Sophia Blum ('Martha')</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-sm mb-4">
+                            <div class="mb-3">
+                                <p class="font-bold">Friday, Nov 15 @ St. Francis of Assisi</p>
+                                <p>Doors open @ 6:30 PM | Show @ 7:00 PM</p>
+                            </div>
+                            <div>
+                                <p class="font-bold">Saturday, Nov 16 @ The Church of Jesus Christ of Latter-day Saints</p>
+                                <p>Doors open @ 3:30 PM | Show @ 4:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mt-auto pt-4">
+                           <a href="https://www.neochosen.com" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-800 transition-colors duration-300">
+                                Learn More
+                           </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Giving Machine Event -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/deseretnews/NDIHSEKWZMYUZ4VEXY2TZI5GRY.jpg" alt="Giving Machine" class="w-full h-56 object-cover">
+                    <div class="p-6 flex flex-col h-full">
+                        <div class="flex items-center mb-4">
+                            <div class="text-center bg-green-700 text-white rounded-lg p-3 mr-4">
+                                <p class="text-xs font-bold leading-tight">NOV 19</p>
+                                <p class="text-sm font-bold leading-tight">-</p>
+                                <p class="text-xs font-bold leading-tight">DEC 7</p>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Giving Machine</h3>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            Share your light this Christmas season by donating to those in need at a Giving Machine. Purchase items for local and global charities.
+                        </p>
+                        <div class="mb-4">
+                            <p class="font-bold text-gray-800">Location: Beachwood Place</p>
+                            <p class="text-sm text-gray-600">26300 Cedar Rd, Beachwood, OH 44122</p>
+                            <p class="font-semibold text-gray-700">Located at the center court of the mall during regular hours.</p>
+                        </div>
+                        <div class="mt-auto pt-4">
+                            <div class="bg-green-50 text-green-800 text-sm font-medium p-3 rounded-lg text-center">
+                                Light the world with your generosity!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- City of Kirtland Tree Lighting -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                    <img src="https://newsroom.churchofjesuschrist.org/media/640x480/Kirtland-Temple-Nativities-Main-Display-24-12-01-J-George-photo.jpg" alt="Kirtland Nativity Display" class="w-full h-56 object-cover">
+                    <div class="p-6 flex flex-col h-full">
+                        <div class="flex items-center mb-4">
+                            <div class="text-center bg-green-700 text-white rounded-lg p-3 mr-4">
+                                <p class="text-sm font-bold leading-tight">NOV</p>
+                                <p class="text-2xl font-extrabold">30</p>
+                                <p class="text-sm font-bold leading-tight">2025</p>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">City of Kirtland Tree Lighting & Nativity Display</h3>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-2 font-semibold">Nov 30 – Dec 30, 2025</p>
+                        <p class="text-gray-600 mb-4">
+                            Kick off the Christmas season with the City’s Tree Lighting at City Hall, followed by live music, hot chocolate, and a display of over 500 nativities at the Kirtland Temple Visitors’ Center.
+                        </p>
+                        <div class="mt-auto text-center">
+                           <p class="text-gray-600">Learn more at <a href="http://ChristmasinKirtland.com" target="_blank" rel="noopener noreferrer" class="text-green-700 hover:underline font-semibold">ChristmasinKirtland.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lamb of God Performance Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                    <img src="https://i.imgur.com/LerMXql.png" alt="Lamb of God Performance" class="w-full h-56 object-cover object-center">
+                    <div class="p-6 flex flex-col h-full">
+                         <div class="flex items-center mb-4">
+                             <div class="text-center bg-green-700 text-white rounded-lg p-3 mr-4">
+                                 <p class="text-sm font-bold leading-tight">APR</p>
+                                 <p class="text-2xl font-extrabold">2026</p>
+                                 <p class="text-xs font-bold leading-tight">Two Weekends</p>
+                             </div>
+                             <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Lamb of God</h3>
+                             </div>
+                         </div>
+                        <p class="text-gray-600 mb-4">A magnificent interfaith musical performance of Rob Gardner's "Lamb of God".</p>
+                        
+                        <div class="text-gray-600 text-sm mb-4">
+                            <div class="mb-3">
+                                <p class="font-bold">April 18-19: The Church of Jesus Christ of Latter-day Saints</p>
+                                <p>8751 Kirtland Road, Kirtland, OH 44094</p>
+                            </div>
+                            <div>
+                                <p class="font-bold">April 25-26: Ss Robert & William Catholic Parish</p>
+                                <p>367 E 260th St, Euclid, OH 44132</p>
+                            </div>
+                        </div>
+                        
+                        <p class="text-gray-600 mt-auto text-sm">
+                            For more information, or to learn how to audition, please <a href="https://www.kirtlandheritagegroup.com/contact" target="_blank" rel="noopener noreferrer" class="text-green-700 hover:underline font-semibold">contact us here</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Kirtland Heritage Days Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                       <img src="https://assets.churchofjesuschrist.org/54/1d/541d4218c38c245fdfa307a75b43835f2ca1850b/martin_harris_palmyra.jpeg" alt="Martin Harris" class="w-full h-56 object-cover">
+                       <div class="p-6 flex flex-col h-full">
+                         <div class="flex items-center mb-4">
+                             <div class="text-center bg-green-700 text-white rounded-lg p-3 mr-4">
+                                 <p class="text-sm font-bold leading-tight">JUN</p>
+                                 <p class="text-2xl font-extrabold">19-20</p>
+                                 <p class="text-sm font-bold leading-tight">2026</p>
+                             </div>
+                             <div>
+                               <h3 class="text-2xl font-bold text-gray-900">Kirtland Heritage Days</h3>
+                             </div>
+                         </div>
+                        <p class="text-gray-600 mb-4">Celebrate Kirtland's rich history with a weekend of family fun! This event features a community 5K race, historical tours, and a special reunion for the Martin & Emer Harris and Artemus Millet families.</p>
+                        <p class="font-semibold text-gray-700">Special Guests:</p>
+                        <ul class="list-disc list-inside text-gray-600 ml-4 mb-4">
+                            <li>Brad Wilcox</li>
+                            <li>Elder Nathan Johnson</li>
+                            <li>More to come!</li>
+                        </ul>
+                         <div class="pt-4 text-center mt-auto">
+                            <a href="http://visitkirtland.com" target="_blank" rel="noopener noreferrer" class="inline-block bg-green-700 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-800 transition-colors duration-300">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Past Events Section -->
+        <div class="mt-20">
+            <h2 class="text-4xl font-bold mb-8 text-center text-gray-700">Past Events</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <!-- 2025 5K Race Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                    <img src="https://i.imgur.com/3fd7le7.jpeg" alt="2025 Kirtland Heritage Days & 5K Race" class="w-full h-56 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/333333?text=Image+Not+Found';">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">2025 Kirtland Heritage Days & 5K Race</h3>
+                        <p class="text-gray-600">A look back at the exciting race and community gathering from our most recent heritage days.</p>
+                    </div>
+                </div>
+
+                <!-- BFJ Family Reunion Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden event-card">
+                    <img src="https://i.imgur.com/VnI0Sr6.jpeg" alt="Benjamin Franklin Johnson Family Reunion" class="w-full h-56 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/333333?text=Image+Not+Found';">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Benjamin Franklin Johnson Family Reunion</h3>
+                        <p class="text-gray-600">Remembering the historic gathering of the Benjamin Franklin Johnson family.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12">
+        <div class="container mx-auto px-6 py-4 text-center text-gray-500">
+            <p>&copy; <span id="year"></span> Kirtland Heritage Group. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="coming-soon-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex justify-center items-center">
+        <div class="bg-white p-8 rounded-lg shadow-lg text-center mx-4">
+            <h3 class="text-2xl font-bold mb-4">Coming Soon!</h3>
+            <p class="text-gray-600 mb-6">More information about this event will be available shortly.</p>
+            <button id="close-modal-btn" class="bg-green-700 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-800 transition-colors duration-300">
+                Close
+            </button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
+
